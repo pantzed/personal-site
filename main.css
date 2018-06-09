@@ -21,11 +21,65 @@
   padding-top: 5%;
 }
 
+.about:last-child {
+  padding-bottom: 5%;
+}
+
 .bg-image {
   background-image: url(main-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+
+.exp-card {
+  margin-top: 5% !important;
+}
+
+.exp-card ul > li {
+  display: list-item;
+  list-style: disc !important;
+  margin-left: 20px;
+}
+
+.exp-card-header {
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgray;
+}
+
+.exp-card-title {
+  font-size: 1.6em;
+  margin-top: 1%;
+}
+
+.exp-card-role {
+  margin-top: 25px;
+}
+
+.exp-card-role span {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.projects-container {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.project-row {
+  height: 100%;
+  padding: 5% 0;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+}
+
+.project-card img {
+  max-height: 20%;
 }
 
 .nav-custom-style {
@@ -58,7 +112,15 @@
   background-image: url(texture-bg.jpg);
   background-size: cover;
   background-repeat: repeat-y;
-  height: 100vh;
+  height: 100%;
+}
+
+@media (min-width: 600px) {
+  
+  .exp-card-role {
+    margin-top: 0;
+  }
+
 }
 
 @media (min-width: 992px) {

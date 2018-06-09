@@ -15,16 +15,16 @@
 </head>
 
 <body>
-  <nav class="nav-custom-style nav-custom-position z-depth-3">
+  <nav class="nav-custom-style nav-custom-position z-depth-2">
     <div class="nav-wrapper">
       <div class="nav-header-position">
         <a href="#" class="nav-header">Ed Pantzar</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
       <ul id="nav-mobile" class="hide-on-med-and-down">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
@@ -32,21 +32,21 @@
 
   <!--Mobile nav ul-->
   <ul class="sidenav" id="mobile-demo">
-    <li><a href="#">About</a></li>
-    <li><a href="#">Experience</a></li>
-    <li><a href="#">Projects</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
   
   <main class="main-content-position">
     <div class="bg-image">
       <div class="row">
-        <div class="col s7">
+        <div class="col s12 m8">
           <h1>This Is Not an Image Of Me!</h1>
         </div>
       </div>
     </div>
-    <div class="section-banner flow-text">
+    <div id="about" class="section-banner flow-text">
       <header>
         <span>ABOUT</span>
       </header>
@@ -71,6 +71,150 @@
         </p>
       </div>
     </div>
+    <div id="experience" class="section-banner flow-text">
+      <header>
+        <span>Experience</span>
+      </header>
+    </div>
+    <div class="texture-bg">
+      <div class="row">
+        <div class="col s12 m10 offset-m1">
+          <div class="card exp-card">
+            <div class="card-content">
+              <div class="row exp-card-header">
+                <div class="col s12 m6 valign-wrapper">
+                  <img class="card-img left" src="egauge-logo.png" alt="eGauge company logo" />
+                  <span class="exp-card-title valign left">eGauge Systems</span>
+                </div>
+                <div class="col m6 right-align hide-on-small-only exp-card-role">
+                  <span class="flow-text">Marketing Manager</span>
+                </div>
+                <div class="col s12 hide-on-med-and-up exp-card-role">
+                  <span class="flow-text">Marketing Manager</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12 exp-card-date">
+                  <span class="blue-grey-text">June 2016 - March 2018</span>
+                </div>
+              </div>
+              <span>Accomplishments:</span>
+              <ul>
+                <li>Worked with the sales, marketing, and software departments to build a new website</li>
+                <li>Designed dozens of print and digital ads using Adobe Photoshop, Illustrator, and InDesign</li>
+                <li>Developed product labels, brochures, photos, and digital copy for five new products</li>
+                <li>Improved lead conversion using automated email sequences</li>
+                <li>Lead staff training and implementation of Hubspot CRM, sales, and marketing platforms</li>
+                <li>Set up Google Analytics tracking, AdWords campaigns, and Amazon Paid Ad Campaigns</li>
+                <li>Managed an email list of ~15,000 and executed email campaigns with Mailchimp</li>
+                <li>Sponsored and helped to coordinate the “Energy Track” for Boulder Startup Week in 2017</li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <a href="#">eGauge.net</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m10 offset-m1">
+          <div class="card exp-card">
+            <div class="card-content">
+              <div class="row exp-card-header">
+                <div class="col s12 m6 valign-wrapper">
+                  <img class="card-img left" src="egauge-logo.png" alt="eGauge company logo" />
+                  <span class="exp-card-title valign left">eGauge Systems</span>
+                </div>
+                <div class="col m6 right-align hide-on-small-only exp-card-role">
+                  <span class="flow-text">Technical Sales</span>
+                </div>
+                <div class="col s12 hide-on-med-and-up exp-card-role">
+                  <span class="flow-text">Technical Sales</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12 exp-card-date">
+                  <span class="blue-grey-text">February 2012 - June 2015</span>
+                </div>
+              </div>
+              <span>Accomplishments:</span>
+              <ul>
+                <li>Grew a yearly revenue of $750K to $4.2M in three years</li>
+                <li>Managed 5 of the top 10 customer accounts (by annual revenue)</li>
+                <li>Developed and presented technical training for energy monitoring equipment</li>
+                <li>Trained two new sales employees on technical aspects of the product line</li>
+                <li>Became an expert of topics in renewable energy, utility billing, and power analysis markets</li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <a href="#">eGauge.net</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="projects" class="section-banner flow-text">
+      <header>
+        <span>Projects</span>
+      </header>
+    </div>
+    <div class="texture-bg">
+      <div class="projects-container">
+        <div class="row project-row">
+          <div class="col s12 m6 l4 project-card">
+            <div class="card project-card">
+              <div class="card-image">
+                <img src="find-your-high.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Find Your High</span>
+                <p>
+                  A simple static webite utilizing an open API with information about different strains
+                  of marijuana. 
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="find-your-high.surge.sh">Find Your High</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card project-card">
+              <div class="card-image">
+                <img src="energy-live.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Energy Live</span>
+                <p>
+                  An interface for viewing electrical energy data graphically. The interface shows
+                  real-time power and historical energy for individual registers of a user-selected
+                  eGauge energy meter. 
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="energy-live.surge.sh">Energy Live</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 project-card">
+            <div class="card project-card">
+              <div class="card-image">
+                <img src="find-your-high.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Card Title</span>
+                <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
 
 </body>
