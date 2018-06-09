@@ -1,25 +1,69 @@
 * {
-  color: black !important;
+  font-family: 'Raleway', sans-serif;
 }
 
-body {
-  background-color: aliceblue;
+.about {
+  margin: 0 5%;
+  opacity: 1;
+}
+
+.about p {
+  padding-top: 2.5%;
+  margin-top: 0;
+  opacity: 1;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.about p:first-of-type {
+  color: #226765;
+  font-weight: 700;
+  padding-top: 5%;
 }
 
 .bg-image {
   background-image: url(main-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 650px;
+  height: 100vh;
 }
 
 .nav-custom-style {
   background-color: white;
 }
 
+.nav-custom-style a {
+  color: black;
+}
+
+.main-content-position h1 {
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+.section-banner {
+  background-color: #A8383B;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.section-banner span {
+  color: white;
+  font-size: 1.6em;
+  font-weight: 300;
+  padding: 0px 25px;
+}
+
+.texture-bg {
+  background-image: url(texture-bg.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+  height: 100vh;
+}
+
 @media (min-width: 992px) {
 
-  .nav-custom-position{
+  .nav-custom-position {
     position: fixed;
     height: 100%;
     width: 15%;
@@ -36,7 +80,6 @@ body {
     border-bottom: 1px solid black;
     height: 100px;
     width: 100%;
-    box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.2);
   }
 
   .nav-custom-position li {
