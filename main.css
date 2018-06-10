@@ -25,6 +25,10 @@
   padding-bottom: 5%;
 }
 
+.active {
+  border-left: 5px solid #A8383B;
+}
+
 .bg-image {
   background-image: url(main-bg.jpg);
   background-size: cover;
